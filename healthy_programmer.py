@@ -40,5 +40,5 @@ if __name__ == '__main__':
         if time() - exercise > exercise_seconds:
             print("Physical exercise time. Enter 'done' to stop the alarm")
             music_on("physical.mp3","done")
-            water=time()
+            exercise=time()
             logging_data("Physical exercise done at")
